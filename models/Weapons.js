@@ -1,15 +1,15 @@
-const { Model, DataTypes } = require('sequelize');
+// const { Model, DataTypes } = require('sequelize');
 
-const sequelize = require('../config/connection');
+// const sequelize = require('../config/connection');
 
-class Weapons extends Model {}
+// class Weapons extends Model {}
 
-Weapons.init(
-    {
-        name: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        }
+// Weapons.init(
+//     {
+//         name: {
+//             type: DataTypes.STRING,
+//             allowNull: false,
+//         }
         
         //Ranged Weapons
             //Image of weapon
@@ -98,8 +98,8 @@ Weapons.init(
 
             //Possible blessings
                 //Blessings labelled 1-x; showing all blessings
-    },
-    { sequelize }
-);
+//     },
+//     { sequelize }
+// );
 
-module.exports = Weapons;
+// module.exports = Weapons;
