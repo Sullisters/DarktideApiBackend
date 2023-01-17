@@ -16,10 +16,10 @@ MeleeWeapons.init(
             allowNull: false,
         },
         //Weapon tags
-        tags: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
+        // tags: {
+        //     type: DataTypes.STRING,
+        //     allowNull: false,
+        // },
         //Weapon description
         desc: {
             type: DataTypes.STRING,
@@ -30,8 +30,7 @@ MeleeWeapons.init(
         //     type: DataTypes.STRING,
         //     allowNull: false,
         // },
-        //Subtypes
-            //Multiple subtypes labeled 1-x
+        // Subtypes
         // subtypes: {
         //     type: DataTypes.STRING,
         //     allowNull: false,
@@ -41,37 +40,21 @@ MeleeWeapons.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
-                //Strikedown
-                //Assassin
-                //Relentless
-
-            //Secondary action
+        //Secondary action
         secAction: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-                //Strikedown
-                //Vanguard
-                //Relentless
-
-            //Special action
+        //Special action
         specAction: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-                //Special melee attack
-                //Activate
-                //Punch
-                //Defensive stance
-                //Parry
-                //Warp charged
-
-            //Possible blessings
+        //Possible blessings
         // blessings: {
         //     type: DataTypes.STRING,
         //     allowNull: false,
         // }
-                //Blessings labelled 1-x; showing all blessings
     },
     { sequelize }
 );

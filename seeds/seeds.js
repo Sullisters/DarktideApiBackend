@@ -1,6 +1,7 @@
 const sequelize = require('../config/connection');
 const {
     MeleeWeapons,
+    Tags
     // RangedWeapons
 } = require('../models');
 
@@ -8,25 +9,20 @@ const meleeWeaponsData = [
     {
         // image : '',
         name: 'Axe (Combat)',
-        // tags: [
-        //     'Strikedown',
-        //     'Versatile'
-        // ],
         desc: 'The Combat Axe is a one-handed melee weapon',
-        // class: [
-        //     'Zealot Preacher',
+        // class: 
+        //     ('Zealot Preacher',
         //     'Veteran Sharpshooter',
-        //     'Psyker Psykinetic'
-        // ],
-        // subtypes: [
+        //     'Psyker Psykinetic'),
+        // subtypes: (
         //     'Rashad Mk II Combat Axe',
         //     'Antax Mk V Combat Axe',
         //     'Achlys Mk VIII Combat Axe'
-        // ],
+        // ),
         primeAction: 'Strikedown',
         secAction: 'Strikedown',
         specAction: 'Special Melee Attack',
-        // blessings: [
+        // blessings: (
         //     'All or Nothing',
         //     'Brutal Momentum',
         //     'Decapitator',
@@ -36,7 +32,7 @@ const meleeWeaponsData = [
         //     'Shred',
         //     'Thrust',
         //     'Thunderous'
-        // ]
+        // )
     },
     // {
     //     // image : '',
@@ -555,10 +551,59 @@ const meleeWeaponsData = [
     // },
 ]
 
+const tagsData = [
+    {
+        tags: 'Assassin'
+    },
+    {
+        tags: 'Cleaving Strike'
+    },
+    {
+        tags: 'Crowd Control'
+    },
+    {
+        tags: 'Defensive'
+    },
+    {
+        tags: 'Flurry'
+    },
+    {
+        tags: 'Force Weapon'
+    },
+    {
+        tags: 'High Damage'
+    },
+    {
+        tags: 'Obliterating'
+    },
+    {
+        tags: 'Power Weapon'
+    },
+    {
+        tags: 'Ravage'
+    },
+    {
+        tags: 'Saw Weapon'
+    },
+    {
+        tags: 'Strikedown'
+    },
+    {
+        tags: 'Swiftstrike'
+    },
+    {
+        tags: 'Unstoppable'
+    },
+    {
+        tags: 'Versatile'
+    },
+]
+
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
 
-    const meleeWeapons = await MeleeWeapons.bulkCreate(meleeWeaponsData)
+    const meleeWeapons = await MeleeWeapons.bulkCreate(meleeWeaponsData);
+    const tags = await Tags.bulkCreate(tagsData);
 };
 
 seedDatabase();

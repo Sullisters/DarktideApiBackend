@@ -5,24 +5,22 @@ const {
     Tags
 } = require('../../models');
 
-//Get all Melee Weapons
+//Get all Tags
 router.get('/', async (req,res) => {
     try {
-        const meleeWeapons = await MeleeWeapons.findAll({
-            include: [Tags]
-        });
-        res.status(200).json(meleeWeapons);
+        const tags = await Tags.findAll();
+        res.status(200).json(tags);
     } catch (err) {
         console.log(err);
         res.status(400).json({ msg: "an error has occured", err });
     }
 });
 
-//Get one Melee Weapon
+//Get one Tag
 router.get('/:id', async (req,res) => {
     try {
-        const meleeWeapons = await MeleeWeapons.findByPk(req.params.id);
-        res.status(200).json(meleeWeapons);
+        const tags = await Tags.findByPk(req.params.id);
+        res.status(200).json(tags);
     } catch (err) {
         console.log(err);
         res.status(500).json(err);
