@@ -2,12 +2,12 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
 
-class Class extends Model{}
+class SpecialAction extends Model{}
 
-Class.init(
+SpecialAction.init(
     {
-        //Available classes
-        class: {
+        //Special Actions
+        SpecialAction: {
             type: DataTypes.STRING,
             allowNull: false,
         }
@@ -15,4 +15,4 @@ Class.init(
     { sequelize }
 );
 
-module.exports = Class;
+module.exports = SpecialAction;

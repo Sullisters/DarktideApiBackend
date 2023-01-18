@@ -2,12 +2,12 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
 
-class Class extends Model{}
+class Subtypes extends Model{}
 
-Class.init(
+Subtypes.init(
     {
-        //Available classes
-        class: {
+        // Subtypes
+        subtypes: {
             type: DataTypes.STRING,
             allowNull: false,
         }
@@ -15,4 +15,4 @@ Class.init(
     { sequelize }
 );
 
-module.exports = Class;
+module.exports = Subtypes;

@@ -2,12 +2,12 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
 
-class Class extends Model{}
+class Blessings extends Model{}
 
-Class.init(
+Blessings.init(
     {
-        //Available classes
-        class: {
+        //Possible blessings
+        blessings: {
             type: DataTypes.STRING,
             allowNull: false,
         }
@@ -15,4 +15,4 @@ Class.init(
     { sequelize }
 );
 
-module.exports = Class;
+module.exports = Blessings;

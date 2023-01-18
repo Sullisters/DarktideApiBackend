@@ -36,20 +36,20 @@ MeleeWeapons.init(
         //     allowNull: false,
         // },
             //Primary action
-        primeAction: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
+        // primeAction: {
+        //     type: DataTypes.STRING,
+        //     allowNull: false,
+        // },
         //Secondary action
-        secAction: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
+        // secAction: {
+        //     type: DataTypes.STRING,
+        //     allowNull: false,
+        // },
         //Special action
-        specAction: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
+        // specAction: {
+        //     type: DataTypes.STRING,
+        //     allowNull: false,
+        // },
         //Possible blessings
         // blessings: {
         //     type: DataTypes.STRING,

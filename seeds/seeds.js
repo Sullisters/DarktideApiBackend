@@ -553,16 +553,13 @@ const meleeWeaponsData = [
 
 const tagsData = [
     {
-        tags: 'Assassin',
-        MeleeWeapon: 1
+        tags: 'Assassin'
     },
     {
-        tags: 'Cleaving Strike',
-        MeleeWeapon: 1
+        tags: 'Cleaving Strike'
     },
     {
-        tags: 'Crowd Control',
-        MeleeWeapon: 1
+        tags: 'Crowd Control'
     },
     {
         tags: 'Defensive'
