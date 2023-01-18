@@ -34,14 +34,14 @@ const meleeWeaponsData = [
         //     'Thunderous'
         // )
     },
-    // {
+    {
     //     // image : '',
-    //     name: 'Axe (Tactical)',
+        name: 'Axe (Tactical)',
     //     tags: [
     //         'Flurry',
     //         'Assassin'
     //     ],
-    //     desc: 'The Tactical Axe is a melee weapon',
+        desc: 'The Tactical Axe is a melee weapon',
     //     class: [
     //         'Zealot Preacher',
     //         'Veteran Sharpshooter'
@@ -51,9 +51,9 @@ const meleeWeaponsData = [
     //         'Atrox Mk II Tactical Axe',
     //         'Atrox Mk IV Tactical Axe'
     //     ],
-    //     primeAction: 'Assassin',
-    //     secAction: 'Strikedown',
-    //     specAction: 'Special Melee Attack',
+        primeAction: 'Assassin',
+        secAction: 'Strikedown',
+        specAction: 'Special Melee Attack',
     //     blessings: [
     //         'All or Nothing',
     //         'Brutal Momentum',
@@ -63,7 +63,7 @@ const meleeWeaponsData = [
     //         'Limbsplitter',
     //         'Shred'
     //     ]
-    // },
+    },
     // {
     //     // image : '',
     //     name: 'Chainaxe',
@@ -553,13 +553,16 @@ const meleeWeaponsData = [
 
 const tagsData = [
     {
-        tags: 'Assassin'
+        tags: 'Assassin',
+        MeleeWeapon: 1
     },
     {
-        tags: 'Cleaving Strike'
+        tags: 'Cleaving Strike',
+        MeleeWeapon: 1
     },
     {
-        tags: 'Crowd Control'
+        tags: 'Crowd Control',
+        MeleeWeapon: 1
     },
     {
         tags: 'Defensive'

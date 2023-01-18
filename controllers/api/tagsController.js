@@ -8,7 +8,9 @@ const {
 //Get all Tags
 router.get('/', async (req,res) => {
     try {
-        const tags = await Tags.findAll();
+        const tags = await Tags.findAll({
+            include: [MeleeWeapons]
+        });
         res.status(200).json(tags);
     } catch (err) {
         console.log(err);
