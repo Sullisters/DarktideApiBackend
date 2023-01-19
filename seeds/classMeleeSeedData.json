@@ -1,0 +1,114 @@
+[
+    {
+        "MeleeWeaponId": 1,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 1,
+        "ClassId": 3
+    },
+    {
+        "MeleeWeaponId": 1,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 2,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 2,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 3,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 3,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 4,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 4,
+        "ClassId": 3
+    },
+    {
+        "MeleeWeaponId": 4,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 5,
+        "ClassId": 1
+    },
+    {
+        "MeleeWeaponId": 6,
+        "ClassId": 1
+    },
+    {
+        "MeleeWeaponId": 7,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 7,
+        "ClassId": 3
+    },
+    {
+        "MeleeWeaponId": 7,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 8,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 9,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 10,
+        "ClassId": 1
+    },
+    {
+        "MeleeWeaponId": 11,
+        "ClassId": 1
+    },
+    {
+        "MeleeWeaponId": 12,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 13,
+        "ClassId": 1
+    },
+    {
+        "MeleeWeaponId": 14,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 14,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 15,
+        "ClassId": 3
+    },
+    {
+        "MeleeWeaponId": 16,
+        "ClassId": 3
+    },
+    {
+        "MeleeWeaponId": 17,
+        "ClassId": 4
+    },
+    {
+        "MeleeWeaponId": 18,
+        "ClassId": 2
+    },
+    {
+        "MeleeWeaponId": 19,
+        "ClassId": 4
+    }
+]

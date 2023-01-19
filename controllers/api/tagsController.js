@@ -2,8 +2,7 @@ const express = require('express');
 const router = express.Router();
 const {
     MeleeWeapons,
-    Tags,
-    MeleeTags
+    Tags
 } = require('../../models');
 
 //Get all Tags

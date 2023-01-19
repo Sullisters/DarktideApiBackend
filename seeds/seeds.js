@@ -3,13 +3,15 @@ const {
     MeleeWeapons,
     Tags,
     MeleeTags,
-    Class
+    Class,
+    ClassMelee
 } = require('../models');
 
 const meleeWeaponsSeedData = require('./meleeWeaponsSeedData.json');
 const tagsSeedData = require('./tagsSeedData.json');
 const meleeTagsSeedData = require('./meleeTagsSeedData.json');
 const classSeedData = require('./classSeedData.json');
+const classMeleeSeedData = require('./classMeleeSeedData.json');
 
 // const meleeWeaponsData = [
 //     {
@@ -53,6 +55,7 @@ const seedDatabase = async () => {
     const tags = await Tags.bulkCreate(tagsSeedData);
     const meleeTags = await MeleeTags.bulkCreate(meleeTagsSeedData);
     const classes = await Class.bulkCreate(classSeedData);
+    const classMelee = await ClassMelee.bulkCreate(classMeleeSeedData);
 };
 
 seedDatabase();
