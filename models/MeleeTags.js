@@ -1,18 +1,21 @@
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes } = require("sequelize");
 
-const sequelize = require('../config/connection');
+const sequelize = require("../config/connection.js");
 
-class Tags extends Model{}
+class MeleeTags extends Model {}
 
-Tags.init(
+MeleeTags.init(
     {
-        //Weapon tags
-        tags: {
-            type: DataTypes.STRING,
-            allowNull: false,
+        MeleeWeaponId: {
+            type: DataTypes.INTEGER,
+            allowNull: false
+        },
+        TagId: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
     },
-    { sequelize }
+    { sequelize, createdAt: false, updatedAt: false}
 );
 
-module.exports = Tags;
+module.exports = MeleeTags;

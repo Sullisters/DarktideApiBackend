@@ -2,15 +2,24 @@ const express = require('express');
 const router = express.Router();
 const {
     MeleeWeapons,
-    MeleeSubtypes,
-    MeleeWeaponsSubtypes
+    Tags
 } = require('../../models');
 
 //Get all Melee Weapons
 router.get('/', async (req,res) => {
     try {
         const meleeWeapons = await MeleeWeapons.findAll({
-            include: [MeleeSubtypes]
+            attributes: [
+                'id',
+                'name',
+                'desc'
+            ],
+            include: [{
+                model: Tags,
+                attributes:[
+                    'tags'
+                ]
+            }]
         });
         res.status(200).json(meleeWeapons);
     } catch (err) {
@@ -23,7 +32,17 @@ router.get('/', async (req,res) => {
 router.get('/:id', async (req,res) => {
     try {
         const meleeWeapons = await MeleeWeapons.findByPk(req.params.id, {
-            include: [MeleeSubtypes]
+            attributes: [
+                'id',
+                'name',
+                'desc'
+            ],
+            include: [{
+                model: Tags,
+                attributes:[
+                    'tags'
+                ]
+            }]
         });
         res.status(200).json(meleeWeapons);
     } catch (err) {

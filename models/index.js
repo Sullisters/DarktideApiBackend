@@ -1,32 +1,23 @@
-const Class = require('./Class');
-const MeleeBlessings = require('./MeleeBlessings');
-const MeleeSubtypes = require('./MeleeSubtypes');
-const MeleeTags = require('./MeleeTags');
 const MeleeWeapons = require('./MeleeWeapons');
-const PrimaryAction = require('./PrimaryAction');
-const SecondaryAction = require('./SecondaryAction');
-const SpecialAction = require('./SpecialAction');
+const Tags = require('./Tags');
+const MeleeTags = require('./MeleeTags');
+const Class = require('./Class');
 
-const MeleeWeaponsSubtypes = require('./MeleeWeaponsSubtypes');
+// MeleeWeapons.hasMany(MeleeTags);
+// MeleeTags.belongsTo(MeleeWeapons);
 
-MeleeSubtypes.belongsToMany(MeleeWeapons, {
-    through: MeleeWeaponsSubtypes,
-    foreignKey: 'meleeSubtypes_id',
-});
+// Tags.hasMany(MeleeTags);
+// MeleeTags.belongsTo(Tags);
 
-MeleeWeapons.belongsToMany(MeleeSubtypes, {
-    through: MeleeWeaponsSubtypes,
-    foreignKey: 'meleeWeapons_id',
-});
+//Many-to-many
+MeleeWeapons.belongsToMany(Tags, { through: MeleeTags });
+Tags.belongsToMany(MeleeWeapons, { through: MeleeTags });
+
+
 
 module.exports = {
-    Class,
-    MeleeBlessings,
-    MeleeSubtypes,
+    MeleeWeapons,
+    Tags,
     MeleeTags,
-    PrimaryAction,
-    SecondaryAction,
-    SpecialAction,
-    MeleeWeaponsSubtypes,
-    MeleeWeapons
+    Class
 };

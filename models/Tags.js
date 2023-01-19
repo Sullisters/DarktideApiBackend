@@ -2,16 +2,16 @@ const { Model, DataTypes } = require("sequelize");
 
 const sequelize = require("../config/connection.js");
 
-class Class extends Model {}
+class Tags extends Model {}
 
-Class.init(
+Tags.init(
     {
-        class: {
+        tags: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
         }
     },
     { sequelize }
 );
 
-module.exports = Class;
+module.exports = Tags;
