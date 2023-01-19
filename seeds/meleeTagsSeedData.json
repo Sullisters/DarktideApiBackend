@@ -1,0 +1,154 @@
+[
+    {
+        "MeleeWeaponId": 1,
+        "TagId": 12
+    },
+    {
+        "MeleeWeaponId": 1,
+        "TagId": 15
+    },
+    {
+        "MeleeWeaponId": 2,
+        "TagId": 5
+    },
+    {
+        "MeleeWeaponId": 2,
+        "TagId": 1
+    },
+    {
+        "MeleeWeaponId": 3,
+        "TagId": 7
+    },
+    {
+        "MeleeWeaponId": 3,
+        "TagId": 10
+    },
+    {
+        "MeleeWeaponId": 4,
+        "TagId": 15
+    },
+    {
+        "MeleeWeaponId": 4,
+        "TagId": 11
+    },
+    {
+        "MeleeWeaponId": 5,
+        "TagId": 5
+    },
+    {
+        "MeleeWeaponId": 5,
+        "TagId": 2
+    },
+    {
+        "MeleeWeaponId": 6,
+        "TagId": 12
+    },
+    {
+        "MeleeWeaponId": 6,
+        "TagId": 15
+    },
+    {
+        "MeleeWeaponId": 7,
+        "TagId": 13
+    },
+    {
+        "MeleeWeaponId": 7,
+        "TagId": 1
+    },
+    {
+        "MeleeWeaponId": 8,
+        "TagId": 9
+    },
+    {
+        "MeleeWeaponId": 8,
+        "TagId": 14
+    },
+    {
+        "MeleeWeaponId": 9,
+        "TagId": 14
+    },
+    {
+        "MeleeWeaponId": 9,
+        "TagId": 10
+    },
+    {
+        "MeleeWeaponId": 10,
+        "TagId": 3
+    },
+    {
+        "MeleeWeaponId": 10,
+        "TagId": 15
+    },
+    {
+        "MeleeWeaponId": 11,
+        "TagId": 3
+    },
+    {
+        "MeleeWeaponId": 11,
+        "TagId": 9
+    },
+    {
+        "MeleeWeaponId": 12,
+        "TagId": 15
+    },
+    {
+        "MeleeWeaponId": 12,
+        "TagId": 3
+    },
+    {
+        "MeleeWeaponId": 13,
+        "TagId": 3
+    },
+    {
+        "MeleeWeaponId": 13,
+        "TagId": 4
+    },
+    {
+        "MeleeWeaponId": 14,
+        "TagId": 5
+    },
+    {
+        "MeleeWeaponId": 14,
+        "TagId": 3
+    },
+    {
+        "MeleeWeaponId": 15,
+        "TagId": 13
+    },
+    {
+        "MeleeWeaponId": 15,
+        "TagId": 1
+    },
+    {
+        "MeleeWeaponId": 16,
+        "TagId": 5
+    },
+    {
+        "MeleeWeaponId": 16,
+        "TagId": 6
+    },
+    {
+        "MeleeWeaponId": 17,
+        "TagId": 2
+    },
+    {
+        "MeleeWeaponId": 17,
+        "TagId": 12
+    },
+    {
+        "MeleeWeaponId": 18,
+        "TagId": 2
+    },
+    {
+        "MeleeWeaponId": 18,
+        "TagId": 9
+    },
+    {
+        "MeleeWeaponId": 19,
+        "TagId": 3
+    },
+    {
+        "MeleeWeaponId": 19,
+        "TagId": 8
+    }
+]

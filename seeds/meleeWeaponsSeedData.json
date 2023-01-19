@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Axe (Combat)",
+        "desc": "The Combat Axe is a one-handed melee weapon."
+    },
+    {
+        "name": "Axe (Tactical)",
+        "desc": "The Tactical Axe is a melee weapon."
+    },
+    {
+        "name": "Chainaxe",
+        "desc": "The Chain Axe is a heavy melee weapon."
+    },
+    {
+        "name": "Chainsword",
+        "desc": "The Chainsword is a one-hand melee weapon."
+    },
+    {
+        "name": "Cleaver",
+        "desc": "The Cleaver is an Ogryn specific melee weapon."
+    },
+    {
+        "name": "Club",
+        "desc": "The Club is an Ogryn specific melee weapon."
+    },
+    {
+        "name": "Combat Blade",
+        "desc": "The Combat Blade is a one-handed melee weapon."
+    },
+    {
+        "name": "Crusher",
+        "desc": "The Crusher is a Zealot exclusive powered weapon."
+    },
+    {
+        "name": "Eviscerator",
+        "desc": "The Eviscerator is a melee weapon."
+    },
+    {
+        "name": "Latrine Shovel",
+        "desc": "The Latrine Shovel is an Ogryn specific melee weapon."
+    },
+    {
+        "name": "Power Maul",
+        "desc": "The Power Maul is an Ogryn exclusive melee weapon."
+    },
+    {
+        "name": "Sapper Shovel",
+        "desc": "The Sapper Shovel is a Veteran specific melee weapon."
+    },
+    {
+        "name": "Slab Shield",
+        "desc": "The Shield is an Ogryn specific defensive weapon."
+    },
+    {
+        "name": "Sword",
+        "desc": "The Sword is a melee weapon."
+    },
+    {
+        "name": "Sword (Duelling)",
+        "desc": "The Duelling Sword is a melee weapon."
+    },
+    {
+        "name": "Sword (Force)",
+        "desc": "The Force Sword is a Psyker specific melee weapon."
+    },
+    {
+        "name": "Sword (Heavy)",
+        "desc": "The Heavy Sword is a two-handed melee weapon."
+    },
+    {
+        "name": "Sword (Power)",
+        "desc": "The Power Sword is a melee weapon"
+    },
+    {
+        "name": "Thunder Hammer",
+        "desc": "The Thunder Hammer is a Zealot specific weapon"
+    }
+]
