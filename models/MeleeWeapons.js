@@ -15,7 +15,7 @@ MeleeWeapons.init(
             allowNull: false
         }
     },
-    { sequelize }
+    { sequelize, createdAt: false, updatedAt: false }
 );
 
 module.exports = MeleeWeapons;

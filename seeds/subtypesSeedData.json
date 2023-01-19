@@ -1,0 +1,126 @@
+[
+    {
+        "subtype": "Rashad Mk II Combat Axe",
+        "MeleeWeaponId": 1
+    },
+    {
+        "subtype": "Antax Mk V Combat Axe",
+        "MeleeWeaponId": 1
+    },
+    {
+        "subtype": "Achlys Mk VIII Combat Axe",
+        "MeleeWeaponId": 1
+    },
+    {
+        "subtype": "Atrox Mk VII Tactical Axe",
+        "MeleeWeaponId": 2
+    },
+    {
+        "subtype": "Atrox Mk II Tactical Axe",
+        "MeleeWeaponId": 2
+    },
+    {
+        "subtype": "Atrox Mk IV Tactical Axe",
+        "MeleeWeaponId": 2
+    },
+    {
+        "subtype": "Orestes Mk IV Chainaxe",
+        "MeleeWeaponId": 3
+    },
+    {
+        "subtype": "Cadia Mk IV Assault Chainsword",
+        "MeleeWeaponId": 4
+    },
+    {
+        "subtype": "Bull Butcher Mk III Cleaver",
+        "MeleeWeaponId": 5
+    },
+    {
+        "subtype": "Krourk Mk IV Cleaver",
+        "MeleeWeaponId": 5
+    },
+    {
+        "subtype": "Krouk Mk VI Cleaver",
+        "MeleeWeaponId": 5
+    },
+    {
+        "subtype": "'Brunt Special' Mk I Bully Club",
+        "MeleeWeaponId": 6
+    },
+    {
+        "subtype": "Catachan Mk III Combat Blade",
+        "MeleeWeaponId": 7
+    },
+    {
+        "subtype": "Indignatus Mk IVe Crusher",
+        "MeleeWeaponId": 8
+    },
+    {
+        "subtype": "Tigrus Mk II Heavy Eviscerator",
+        "MeleeWeaponId": 9
+    },
+    {
+        "subtype": "Brute-Brainer Mk III Latrine Shovel",
+        "MeleeWeaponId": 10
+    },
+    {
+        "subtype": "Achlys Mk I Power Maul",
+        "MeleeWeaponId": 11
+    },
+    {
+        "subtype": "Standard-Issue Munitorum Sapper Shovel",
+        "MeleeWeaponId": 12
+    },
+    {
+        "subtype": "Orox Mk II Battle Maul & Mk II Slab Sheild",
+        "MeleeWeaponId": 13
+    },
+    {
+        "subtype": "Catachan Mk VII 'Devil's Claw' Sword",
+        "MeleeWeaponId": 14
+    },
+    {
+        "subtype": "Catachan Mk IV 'Devil's Claw' Sword",
+        "MeleeWeaponId": 14
+    },
+    {
+        "subtype": "Catachan Mk I 'Devil's Claw' Sword",
+        "MeleeWeaponId": 14
+    },
+    {
+        "subtype": "Maccabian Mk IV Duelling Sword",
+        "MeleeWeaponId": 15
+    },
+    {
+        "subtype": "Maccabian Mk II Duelling Sword",
+        "MeleeWeaponId": 15
+    },
+    {
+        "subtype": "Maccabian Mk V Duelling Sword",
+        "MeleeWeaponId": 15
+    },
+    {
+        "subtype": "Obscurus Mk II Blaze Force Sword",
+        "MeleeWeaponId": 16
+    },
+    {
+        "subtype": "Turtolsky Mk VII Heavy Sword",
+        "MeleeWeaponId": 17
+    },
+    {
+        "subtype": "Turtolsky Mk VI Heavy Sword",
+        "MeleeWeaponId": 17
+    },
+    {
+        "subtype": "Turtolsky Mk IX Heavy Sword",
+        "MeleeWeaponId": 17
+    },
+    {
+        "subtype": "Munitorum Mk III Power Sword",
+        "MeleeWeaponId": 18
+    },
+    {
+        "subtype": "Crucis Mk II Thunder Hammer",
+        "MeleeWeaponId": 19
+    }
+]

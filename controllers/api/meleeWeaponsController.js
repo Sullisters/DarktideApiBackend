@@ -3,7 +3,8 @@ const router = express.Router();
 const {
     MeleeWeapons,
     Tags,
-    Class
+    Class,
+    Subtypes
 } = require('../../models');
 
 //Get all Melee Weapons
@@ -49,6 +50,9 @@ router.get('/:id', async (req,res) => {
                 attributes:[
                     'class'
                 ]
+            },
+            {
+                model: Subtypes
             }
         ]
         });
