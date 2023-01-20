@@ -1,0 +1,70 @@
+[
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "2"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "11"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "21"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "22"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "48"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "56"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "90"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "105"
+    },
+    {
+        "MeleeWeaponId": "1",
+        "BlessingId": "106"
+    },
+    {
+        "MeleeWeaponId": "2",
+        "BlessingId": ""
+    },
+    {
+        "MeleeWeaponId": "2",
+        "BlessingId": ""
+    },
+    {
+        "MeleeWeaponId": "2",
+        "BlessingId": ""
+    },
+    {
+        "MeleeWeaponId": "2",
+        "BlessingId": ""
+    },
+    {
+        "MeleeWeaponId": "2",
+        "BlessingId": ""
+    },
+    {
+        "MeleeWeaponId": "2",
+        "BlessingId": ""
+    },
+    {
+        "MeleeWeaponId": "2",
+        "BlessingId": ""
+    },
+    {
+        "MeleeWeaponId": "",
+        "BlessingId": ""
+    }
+]

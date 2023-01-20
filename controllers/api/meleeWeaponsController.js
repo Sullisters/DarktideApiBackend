@@ -4,7 +4,8 @@ const {
     MeleeWeapons,
     Tags,
     Class,
-    Subtypes
+    Subtypes,
+    Blessings
 } = require('../../models');
 
 //Get all Melee Weapons
@@ -53,6 +54,9 @@ router.get('/:id', async (req,res) => {
             },
             {
                 model: Subtypes
+            },
+            {
+                model: Blessings
             }
         ]
         });

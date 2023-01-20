@@ -4,6 +4,8 @@ const MeleeTags = require('./MeleeTags');
 const Class = require('./Class');
 const ClassMelee = require('./ClassMelee');
 const Subtypes = require('./Subtypes');
+const Blessings = require('./Blessings');
+const MeleeBlessings = require('./MeleeBlessings');
 
 // MeleeWeapons.hasMany(MeleeTags);
 // MeleeTags.belongsTo(MeleeWeapons);
@@ -23,11 +25,17 @@ Class.belongsToMany(MeleeWeapons, { through: ClassMelee });
 MeleeWeapons.hasMany(Subtypes);
 Subtypes.belongsTo(MeleeWeapons);
 
+//Weapon Blessings (Melee)
+MeleeWeapons.belongsToMany(Blessings, { through: MeleeBlessings });
+Blessings.belongsToMany(MeleeWeapons, { through: MeleeBlessings });
+
 module.exports = {
     MeleeWeapons,
     Tags,
     MeleeTags,
     Class,
     ClassMelee,
-    Subtypes
+    Subtypes,
+    Blessings,
+    MeleeBlessings
 };
